@@ -1,0 +1,13 @@
+{application, lfeysession,
+ [{description, "YAWS session utilities written in LFE"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules,
+   [lfeysession
+   ]}
+ ]}.
